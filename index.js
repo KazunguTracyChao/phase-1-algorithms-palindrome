@@ -38,6 +38,7 @@ function isPalindrome(word) {
   is greater or equal to 2. This happens in O(n) time and I do not require any extra space
   to run the function. I return false when the last element does not match the first element.
 */
+
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
@@ -51,5 +52,3 @@ if (require.main === module) {
 }
 
 module.exports = isPalindrome;
-
-
